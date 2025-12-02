@@ -19,7 +19,7 @@ function fazerLogin() {
   
   if (usuarioEncontrado) {
     localStorage.setItem("usuarioLogado", JSON.stringify(usuarioEncontrado));
-    window.location.href = '/Pages/index.html';
+    window.location.href = '../index.html';
   } else {
     localStorage.removeItem("usuarioLogado");
     alert("Email ou senha incorretos!");
