@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nutra</title>
   <link rel="stylesheet" href="../CSS/styles.css">
+  <link rel="stylesheet" href="../CSS/feedback.css">
 </head>
 <body>
   <header>
@@ -22,7 +23,18 @@
   </header>
 
   <main>
-    
+
+    <button id="btn-abrir-modal">Dar Feedback</button>
+
+    <div id="modal-feedback" class="modal">
+        <div class="modal-conteudo">
+            <div id="feedback-wrapper">
+                <!-- O conteúdo (formulário ou obrigado) será injetado aqui -->
+            </div>
+        </div>
+    </div>
+
+
     <section class="intro">
       <h1>Introdução à Nutrição Saudável</h1>
       <p>
@@ -93,6 +105,7 @@
         </div>
       </div>
     </section>
+    
   </main>
 
   <footer>
@@ -103,5 +116,7 @@
     </div>
     <p>&copy; 2025 Nutra. Todos os direitos reservados.</p>
   </footer>
+
+  <script src="JS/feedback.js"></script>
 </body>
 </html>
